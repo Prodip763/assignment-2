@@ -1,0 +1,146 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 100px;
+   
+    
+
+}
+
+.pera{
+    width: 50%;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 15px;
+    color: black;
+}
+
+
+.fas{
+    color: #efefefd5;
+    font-size: 18px;
+}
+.button{
+    width: 180px;
+    border-radius: 50px;
+    background-color: rgb(255, 123, 0);
+    color: rgba(255, 255, 255, 0.863);
+    text-align: center;
+    
+   }
+   .journey{
+       display: flex;
+       margin-bottom: 150px;
+       padding-left: 100px;
+       
+   }
+   
+   h1{
+       font-size: 50px;
+   }
+   .now p{
+       text-align: left;
+       
+   }
+ .camera{
+     width: 50%;
+     padding-left: 5%;
+     margin-bottom: 150px;
+     
+ }
+ .fas{
+     color: orange;
+     background-repeat: no-repeat;
+ }
+ .collection{
+     text-align: center;
+     font-size: 40px;
+     margin-bottom: 5%;
+
+ }
+
+ .items{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column: 24px;
+     padding-left: 100px;
+ }
+ .item{
+     padding-left: 100px;
+     
+     padding-bottom: 20px;
+     border-radius: 30px;
+     
+ }
+ .item-banner{
+     padding-left: 30px;
+     background-color: white;
+     box-shadow: 10px 10px 10px rgb(204, 196, 196);
+    text-align: center;
+
+ }
+ .item-banner img{
+     padding-top: 10px;
+     
+ }
+ #rating{
+     display: inline;
+     color: black;
+     margin-left: 5px;
+ }
+ .info{
+     margin: 0;
+     padding: 0;
+ }
+ .button-1{
+    width: 180px;
+    border-radius: 50px;
+    background-color: rgb(182, 29, 136);
+    color: white;
+    background-position: right;
+    text-align: center;
+ }
+ .future{
+     display: flex;
+     padding-top: 10%;
+     padding-left: 100px;
+     
+ }
+ .car img{
+     width: 70%;
+ }
+ .footer{
+     background-color: black;
+     color: white;
+     text-align: center;
+     margin: 0;
+     padding: 0;
+ }
+ /* templete device */
+ @media only screen and (min-width: 688px)
+ {
+     .top{
+         width: 100%;
+     }
+     .tops,  .future{
+         grid-template-columns: repeat(2, 1fr);
+     }
+     .items{
+        grid-template-columns: repeat(1, 1fr);
+     }
+
+ }
+ 
